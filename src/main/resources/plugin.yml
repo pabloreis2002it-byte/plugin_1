@@ -1,0 +1,34 @@
+name: WarpShortcuts
+version: 1.0.0
+main: com.example.warpshortcuts.WarpShortcutsPlugin
+api-version: "1.21"
+
+commands:
+  box:
+    description: Teleport to the Box world
+    usage: /box
+
+  ffa:
+    description: Teleport to the FFA world
+    usage: /ffa
+
+  hub:
+    description: Teleport to the Hub
+    usage: /hub
+
+  spawn:
+    description: Teleport to Spawn
+    usage: /spawn
+
+  survival:
+    description: Teleport to Survival
+    usage: /survival
+
+  creative:
+    description: Teleport to Creative
+    usage: /creative
+
+permissions:
+  warpshortcuts.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
