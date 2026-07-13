@@ -1,0 +1,20 @@
+# Command shortcuts.
+# Format:
+# command: destination
+#
+# Example:
+# box -> /box executes: mvtp <player> box
+
+shortcuts:
+
+  box: box
+
+  ffa: ffa
+
+  hub: hub
+
+  spawn: spawn
+
+  survival: survival
+
+  creative: creative
